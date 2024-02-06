@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+  
+  <div class="container">  
+	  <div class= "d-flex justify-content-center">
+			  <div class= "row mt-5 col-4">
+			  <h1 class ="mt-5 text-center"  style="font-weight: bold;">login</h1>
+				  <form class="row g-3 needs-validation" novalidate>
+					  <div class="mb-3 mt-5">
+					    <input type="text" class="form-control" id="validationCustom01"  placeholder="ID" required>
+					  </div>
+					  <div class="mb-3">
+					    <input type="password" class="form-control" id="validationCustom02" placeholder="PW" required>
+					  </div>
+					  <div class="mb-3 form-check">
+					    <input type="checkbox" class="form-check-input " id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">자동 로그인</label>
+					  </div>
+					  <div class = " text-center">
+						  <div class="d-grid gap-2 mx-auto">
+						  <button class="btn btn-primary" type="submit">Login</button>
+						  <a href="#">Find ID/PW</a>
+						  
+						  <hr>
+						  <button class="btn btn-primary mt-3" type="button" style="background-color: green; border: none;"  onClick="location.href='https://www.naver.com/'">NAVE</button>
+						  <button class="btn btn-primary mt-1" type="button" style="background-color: gray;  border: none;" onClick="location.href= 'https://www.google.co.kr/?hl=ko'">GOOGLE</button>
+						  <button class="btn btn-primary mt-1" type="button" style="background-color: yellow;  border: none;" onClick="location.href='https://kakao.io/?lang=KR'">KAKAO</button>
+						  <button class="btn btn-primary mt-1" type="button" style="background-color: aqua; border: none;" onClick="location.href='https://www.daum.net/'">DAUM</button>
+					 </div>
+				  </div>
+				</form>
+		  </div>
+	</div>
+</div>
+   <script src="/docs/5.3/assets/js/docs.min.js"></script>
+        <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (() => {
+       'use strict'
+
+       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+       const forms = document.querySelectorAll('.needs-validation')
+
+       // Loop over them and prevent submission
+       Array.from(forms).forEach(form => {
+         form.addEventListener('submit', event => {
+           if (!form.checkValidity()) {
+             event.preventDefault()
+             event.stopPropagation()
+           }
+
+           form.classList.add('was-validated')
+         }, false)
+       })
+     })()
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
