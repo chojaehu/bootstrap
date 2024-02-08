@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+  <style>
+  .imagesize{
+  width: 30px;
+  height: 30px;
+  }
+  label{
+  font-size: 12px;
+  }
+
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Admin</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	      </ul>
+	    </div>	    
+	    <div class="dropdown-center">
+		  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none">
+		    <img src = "./image/menu1.png" style = "width: 40px ; height: 40px">
+		  </button>
+		  <ul class="dropdown-menu">
+		    <li>
+		    <a class="dropdown-item" href="#">
+		    <img src  = "./image/g1.png"  class = "imagesize">
+		    </a>
+		    </li>
+		    <li><a class="dropdown-item" href="#"> 
+		    <img src  = "./image/g2.png"  class = "imagesize">
+		    </a></li>
+		    <li><a class="dropdown-item" href="#"> 
+		    <img src  = "./image/g3.png"  class = "imagesize">
+		    </a></li>
+		  </ul>
+		</div>
+		 <div class="btn-group dropstart ">
+		<button class="btn btn-outline-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none">
+		    <img alt="" src="./image/111.jpg" width="40px" height="40px" style="border-radius: 50%">
+		  </button>	 
+		  <ul class="dropdown-menu text-center">
+		    <li>
+		    <p>사용자 이름</p>
+		    <img src  = "./image/111.jpg" style = "width: 100px ; height: 100px; border-radius: 50%;border: 1px solid;" >
+		    <div class="mt-1">name</div>
+		    <div>email</div>
+		    </li>	
+		    <li class= "mt-3">
+		    <img class = "imagesize" src="./image/g1.png">
+		    <img src="./image/g2.png"  class = "imagesize">
+		    <img src="./image/g3.png"  class = "imagesize">
+		    </li>
+		    <li class = "">
+		    <button class="btn btn-outline-secondary" type="button" style="height: 30px; border: none">
+		    계정관리</button>
+		    </li>	
+		    <li>
+		    <button class="btn btn-outline-secondary" type="button" style="height: 30px; border: none">
+		    로그아웃</button>
+		    </li>	   
+		  </ul>
+		</div>	
+	  </div>
+
+	</nav>
+	<div class="container-fluid">  
+		
+		<div class ="row">
+		
+			<div class = "col-2 mt-5">
+				<nav class="nav flex-column" >																		
+						<ul class="nav nav-tabs">
+						  <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#member" role="button" data-bs-toggle="collapse">			     
+			                	<span >회원관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse" id="member">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+			              <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#nv-pp" role="button" data-bs-toggle="collapse">			     
+			                	<span >관리자관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse"  id="nv-pp">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item ">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+			              <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#sponsor" role="button" data-bs-toggle="collapse">			     
+			                	<span >스폰서관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse" id="sponsor">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+						</ul>
+				</nav>
+				
+			</div>
+			<div class = "col-10 mt-5">
+			<nav class="mb-2" aria-label="breadcrumb">
+	          <ol class="breadcrumb mb-0">
+	            <li class="breadcrumb-item"><a href="">Page 1</a></li>
+	            <li class="breadcrumb-item"><a href="">Page 2</a></li>
+	            <li class="breadcrumb-item active">Default</li>
+	          </ol>
+	        </nav>
+				<h2>회원 관리</h2>
+					<div class="row  mt-3" >
+							<form class=" needs-validation" novalidate>
+							<div>
+								<h3 style="padding: 15px">기본 정보</h3>
+							</div>
+							<div class= "row mt-3">
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">코드</label>
+							    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>			
+							  </div>
+							<div class= "row mt-3">
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">소셜아이디</label>
+							    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">소셜</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom02" class="form-label">이름</label>
+							    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustomUsername" class="form-label">성별</label>
+							    <div class="input-group has-validation">
+							      <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							      <div class="invalid-feedback">
+							        Please choose a username.
+							      </div>
+							    </div>
+							  </div>	
+							  
+							  
+							  <div class= "row mt-3">
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">출생일</label>
+							    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">이메일</label>
+							    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom02" class="form-label">전화번호</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  </div>	
+							  
+							  
+							<div class= "row mt-3">
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">지택지역</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">자택지역2</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>
+							  <div class="col-3">
+							    <label for="validationCustom02" class="form-label">사무실지역1</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>	
+							  <div class="col-3">
+							    <label for="validationCustom01" class="form-label">자택지역2</label>
+							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
+								  <option selected>선택하세요</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							    <div class="valid-feedback">
+							      Looks good!
+							    </div>
+							  </div>				  
+							  <div class ="row">
+							  <div class="col-12">
+							    <button class="btn btn-primary" type="submit">사무실지역2</button>
+							  </div>
+							  </div>
+							  </div>
+							</form>
+					</div>												
+			</div>		
+		</div>	
+	</div>
+	<footer class = "text-center">
+	<p>1. 동해물과 백두산이 마르고 닳도록
+		하느님이 보우하사 우리나라 만세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		2. 남산 위에 저 소나무 철갑을 두른 듯
+		바람 서리 불변함은 우리 기상일세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		3. 가을 하늘 공활한데 높고 구름 없이
+		밝은 달은 우리 가슴 일편단심일세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		4. 이 기상과 이 맘으로 충성을 다하여
+		괴로우나 즐거우나 나라 사랑하세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세</p>
+	</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+
+    </script>
+    <script src="/docs/5.3/assets/js/docs.min.js"></script>
+     <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (() => {
+       'use strict'
+
+       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+       const forms = document.querySelectorAll('.needs-validation')
+
+       // Loop over them and prevent submission
+       Array.from(forms).forEach(form => {
+         form.addEventListener('submit', event => {
+           if (!form.checkValidity()) {
+             event.preventDefault()
+             event.stopPropagation()
+           }
+
+           form.classList.add('was-validated')
+         }, false)
+       })
+     })()
+      </script>
+</script>
+
+  </body>
+</html>

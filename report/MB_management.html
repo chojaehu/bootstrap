@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+  
+  <style>
+  .imagesize{
+  width: 30px;
+  height: 30px;
+  }
+  table th{
+  font-size: 11px;
+  }
+  </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
@@ -19,69 +29,219 @@
 	          <a class="nav-link active" aria-current="page" href="#">Home</a>
 	        </li>
 	      </ul>
-	    </div>
-	    <img alt="" src="./image/g1.png" width="40px" height="40px">
+	    </div>	    
+	    <div class="dropdown-center">
+		  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none">
+		    <img src = "./image/menu1.png" style = "width: 40px ; height: 40px">
+		  </button>
+		  <ul class="dropdown-menu">
+		    <li>
+		    <a class="dropdown-item" href="#">
+		    <img src  = "./image/g1.png"  class = "imagesize">
+		    </a>
+		    </li>
+		    <li><a class="dropdown-item" href="#"> 
+		    <img src  = "./image/g2.png"  class = "imagesize">
+		    </a></li>
+		    <li><a class="dropdown-item" href="#"> 
+		    <img src  = "./image/g3.png"  class = "imagesize">
+		    </a></li>
+		  </ul>
+		</div>
+		 <div class="btn-group dropstart ">
+		<button class="btn btn-outline-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none">
+		    <img alt="" src="./image/111.jpg" width="40px" height="40px" style="border-radius: 50%">
+		  </button>	 
+		  <ul class="dropdown-menu text-center">
+		    <li>
+		    <p>사용자 이름</p>
+		    <img src  = "./image/111.jpg" style = "width: 100px ; height: 100px; border-radius: 50%;border: 1px solid;" >
+		    <div class="mt-1">name</div>
+		    <div>email</div>
+		    </li>	
+		    <li class= "mt-3">
+		    <img class = "imagesize" src="./image/g1.png">
+		    <img src="./image/g2.png"  class = "imagesize">
+		    <img src="./image/g3.png"  class = "imagesize">
+		    </li>
+		    <li class = "">
+		    <button class="btn btn-outline-secondary" type="button" style="height: 30px; border: none">
+		    계정관리</button>
+		    </li>	
+		    <li>
+		    <button class="btn btn-outline-secondary" type="button" style="height: 30px; border: none">
+		    로그아웃</button>
+		    </li>	   
+		  </ul>
+		</div>	
 	  </div>
+
 	</nav>
 	<div class="container-fluid">  
 		
 		<div class ="row">
 		
-			<div class = "col-2">
-				<nav class="nav flex-column">
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link" href="#">Link</a>
-						<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+			<div class = "col-2 mt-5">
+				<nav class="nav flex-column" >																		
+						<ul class="nav nav-tabs">
+						  <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#member" role="button" data-bs-toggle="collapse">			     
+			                	<span >회원관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse" id="member">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+			              <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#nv-pp" role="button" data-bs-toggle="collapse">			     
+			                	<span >관리자관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse"  id="nv-pp">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item ">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+			              <li class="nav-item">
+			                <div class="nav-item-wrapper">
+			                <a class="nav-link dropdown-indicator active" href="#sponsor" role="button" data-bs-toggle="collapse">			     
+			                	<span >스폰서관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse" id="sponsor">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>
+						</ul>
 				</nav>
 				
 			</div>
 			<div class = "col-10 mt-5">
 			<nav class="mb-2" aria-label="breadcrumb">
 	          <ol class="breadcrumb mb-0">
-	            <li class="breadcrumb-item"><a href="#!">Page 1</a></li>
-	            <li class="breadcrumb-item"><a href="#!">Page 2</a></li>
+	            <li class="breadcrumb-item"><a href="">Page 1</a></li>
+	            <li class="breadcrumb-item"><a href="">Page 2</a></li>
 	            <li class="breadcrumb-item active">Default</li>
 	          </ol>
 	        </nav>
 				<h2>Member</h2>
 				<form>
-				<div class="row row-cols-6 mt-3" >
-				    <div class="col"><input type="text"></div>
-				    <div class="col"><input type="text"></div>
-				    <div class="col"><input type="text"></div>
-				    <div class="col"><input type="text"></div>
-				  </div>
-				  <div class="row mt-3">
-				    <div class="col-2"><input type="date"></div>
-				    <div class="col-2"><input type="date"></div>
-				  </div>
+					<div class="row  mt-3" >
+					    <div class="col-2">
+						    <select class="form-select" aria-label="Default select example">
+							  <option selected>N</option>
+							  <option value="1">One</option>
+							  <option value="2">Two</option>
+							  <option value="3">Three</option>
+							</select>
+						</div>
+					    <div class="col-2">
+						    <select class="form-select" aria-label="Default select example">
+							  <option selected>수정일</option>
+							  <option value="1">One</option>
+							  <option value="2">Two</option>
+							  <option value="3">Three</option>
+							</select>
+						</div>
+					    <div class="col-2">
+						    <select class="form-select" aria-label="Default select example">
+							  <option selected>검색어</option>
+							  <option value="1">One</option>
+							  <option value="2">Two</option>
+							  <option value="3">Three</option>
+							</select>
+						</div>
+					    <div class="col-2">
+						    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="검색어 읿력">
+						   
+						</div>
+						<div class="col-2">
+						    <button class="btn btn-outline-secondary" type="button" style="border: none">
+							    <img src = "./image/zoom-in.svg" width="25px" height="25px" >
+							  </button>
+						</div>
+					  </div>
+					  <div class="row mt-3">
+					    <div class="col-2"><input type="date"></div>
+					    <div class="col-1"><p>~</p></div>
+					    <div class="col-2"><input type="date"></div>
+					 </div>
 				  </form>
 				  
-				  <table class="table caption-top mt-3">
+				  <table class="table caption-top mt-3 text-center">
 					  <caption>List of users</caption>
 					  <thead>
 					    <tr>
+					      <th scope="col"><input type="checkbox"></th>
 					      <th scope="col">#</th>
 					      <th scope="col">탈퇴</th>
 					      <th scope="col">코드</th>
-					      <th scope="col">이름</th>
+					      <th scope="col">이름</th>					    
 					      <th scope="col">아이디</th>
 					      <th scope="col">비밀번호</th>
 						  <th scope="col">이메일</th>
-					      <th scope="col">성별</th>
-					      <th scope="col">주소</th>
+					      <th scope="col">모바일</th>
+					      <th scope="col">예금주</th>
+					      <th scope="col">은행</th>
+					      <th scope="col">계좌번호</th>
+					      <th scope="col">차량명</th>
+					      <th scope="col">차량번호</th>
+					      <th scope="col">차량타입</th>
+					      <th scope="col">차량년도</th>
+					      <th scope="col">차량컬러</th>
+					      <th scope="col">차량등록일</th>
 					      <th scope="col">등록일</th>
-					      <th scope="col">수정일</th>
+					      <th scope="col">수정일</th>   
 					    </tr>
 					  </thead>
 					  <tbody>
@@ -90,6 +250,15 @@
 					      <td>Mark</td>
 					      <td>Otto</td>
 					      <td>@mdo</td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
 					      <td></td>
 					      <td></td>
 					      <td></td>
@@ -110,12 +279,8 @@
 					      <td></td>
 					      <td></td>
 					      <td></td>
-					    </tr>
-					    <tr>
-					      <th scope="row"><input type="checkbox"></th>
-					      <td>Larry</td>
-					      <td>the Bird</td>
-					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
 					      <td></td>
 					      <td></td>
 					      <td></td>
@@ -136,12 +301,8 @@
 					      <td></td>
 					      <td></td>
 					      <td></td>
-					    </tr>
-					    <tr>
-					      <th scope="row"><input type="checkbox"></th>
-					      <td>Larry</td>
-					      <td>the Bird</td>
-					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
 					      <td></td>
 					      <td></td>
 					      <td></td>
@@ -162,12 +323,130 @@
 					      <td></td>
 					      <td></td>
 					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
 					    </tr>
+					    <tr>
+					      <th scope="row"><input type="checkbox"></th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <th scope="row"><input type="checkbox"></th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <th scope="row"><input type="checkbox"></th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <th scope="row"><input type="checkbox"></th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>					    					   
 					  </tbody>
 				</table>
 				<div class="row">
-					<div class="col d-grid gap-2 d-md-flex justify-content-md-start">
+					<!-- <div class="col d-grid gap-2 d-md-flex justify-content-md-start">
 					  <button class="btn btn-danger" type="button">삭제</button>
+					</div> -->
+					<div class="col d-grid gap-2 d-md-flex justify-content-md-start">
+					<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">삭제
+					</button>
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					        삭세하시겠습니까?
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">아니요</button>
+					        <button type="button" class="btn btn-primary">예</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 					</div>
 					<div class="col d-grid gap-2 d-md-flex justify-content-md-end">
 					  <button class="btn btn-primary" type="button">수정</button>
@@ -187,12 +466,35 @@
 					    </li>
 					  </ul>
 					</nav>
-			</div>
-			
-		</div>
-		
+			</div>		
+		</div>	
 	</div>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<footer class = "text-center">
+	<p>1. 동해물과 백두산이 마르고 닳도록
+		하느님이 보우하사 우리나라 만세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		2. 남산 위에 저 소나무 철갑을 두른 듯
+		바람 서리 불변함은 우리 기상일세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		3. 가을 하늘 공활한데 높고 구름 없이
+		밝은 달은 우리 가슴 일편단심일세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세
+		4. 이 기상과 이 맘으로 충성을 다하여
+		괴로우나 즐거우나 나라 사랑하세
+		무궁화 삼천리 화려 강산
+		대한 사람 대한으로 길이 보전하세</p>
+	</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+    </script>
+    <script src="/docs/5.3/assets/js/docs.min.js"></script>
   </body>
 </html>
