@@ -83,12 +83,12 @@
 		<div class ="row">
 		
 			<div class = "col-2 mt-5">
-				<nav class="nav flex-column" >																		
-						<ul >
+				<nav class="nav flex-column" style="position: sticky; top: 0;" >																		
+						<ul class="nav nav-tabs">
 						  <li class="nav-item">
-			                <div class="nav-item-wrapper">
+			                <div class="nav-item-wrapper ">
 			                <a class="nav-link dropdown-indicator active" href="#member" role="button" data-bs-toggle="collapse">			     
-			                	<span >회원 관리</span>
+			                	<span >회원관리</span>
 			                  </a>
 			                  <div class="parent-wrapper label-1">
 			                    <ul class="nav parent collapse" id="member">
@@ -110,43 +110,19 @@
 			                    </ul>
 			                  </div>
 			                </div>
-			              </li>
-			              <li class="nav-item">
-			                <div class="nav-item-wrapper">
-			                <a class="nav-link dropdown-indicator active" href="#nv-pp" role="button" data-bs-toggle="collapse">			     
-			                	<span >관리자관리</span>
-			                  </a>
-			                  <div class="parent-wrapper label-1">
-			                    <ul class="nav parent collapse"  id="nv-pp">
-			                      <li class="nav-item">
-			                      <a class="nav-link active"aria-expanded="false">
-			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
-			                        </a>
-			                      </li>
-			                      <li class="nav-item">
-			                      <a class="nav-link active" aria-expanded="false">
-			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
-			                        </a>
-			                      </li>
-			                      <li class="nav-item ">
-			                      <a class="nav-link active" aria-expanded="false">
-			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
-			                        </a>
-			                      </li>			                   
-			                    </ul>
-			                  </div>
-			                </div>
-			              </li>
-			              <li class="nav-item">
-			                <div class="nav-item-wrapper">
-			                <a class="nav-link dropdown-indicator active" href="#sponsor" role="button" data-bs-toggle="collapse">			     
+			              </li>  
+						</ul>
+						<ul class="nav nav-tabs">
+						  <li class="nav-item">
+			                <div class="nav-item-wrapper ">
+			                <a class="nav-link dropdown-indicator active" href="#member2" role="button" data-bs-toggle="collapse">			     
 			                	<span >스폰서관리</span>
 			                  </a>
 			                  <div class="parent-wrapper label-1">
-			                    <ul class="nav parent collapse" id="sponsor">
+			                    <ul class="nav parent collapse" id="member2">
 			                      <li class="nav-item">
 			                      <a class="nav-link active"aria-expanded="false">
-			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴ
 			                        </a>
 			                      </li>
 			                      <li class="nav-item">
@@ -156,13 +132,41 @@
 			                      </li>
 			                      <li class="nav-item">
 			                      <a class="nav-link active" aria-expanded="false">
-			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
 			                        </a>
 			                      </li>			                   
 			                    </ul>
 			                  </div>
 			                </div>
-			              </li>
+			              </li>  
+						</ul>
+						<ul class="nav nav-tabs">
+						  <li class="nav-item">
+			                <div class="nav-item-wrapper ">
+			                <a class="nav-link dropdown-indicator active" href="#member3" role="button" data-bs-toggle="collapse">			     
+			                	<span >관리자 관리</span>
+			                  </a>
+			                  <div class="parent-wrapper label-1">
+			                    <ul class="nav parent collapse" id="member3">
+			                      <li class="nav-item">
+			                      <a class="nav-link active"aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>
+			                      <li class="nav-item">
+			                      <a class="nav-link active" aria-expanded="false">
+			                      ㅁㄴㅁㄴㅁㄴㅁㄴㅁㄴ
+			                        </a>
+			                      </li>			                   
+			                    </ul>
+			                  </div>
+			                </div>
+			              </li>  
 						</ul>
 				</nav>
 				
@@ -184,16 +188,16 @@
 							<div class= "row mt-3">
 							  <div class="col-3">
 							    <label for="validationCustom01" class="form-label">코드<span class="text-danger fs-0">*</span></label>
-							    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+							    <input type="text" class="form-control aa" id="validationCustom01" value="Mark" disabled>
 							  </div>			
 							  </div>
 							<div class= "row mt-3">
 							  <div class="col-3">
-							    <label for="validationCustom01" class="form-label">소셜아이디<span class="text-danger fs-0">*</span></label>
+							    <label for="validationCustom01" class="form-label aa">소셜아이디<span class="text-danger fs-0">*</span></label>
 							    <input type="text" class="form-control" id="validationCustom01"  placeholder="입력" required>
 							  </div>
 							  <div class="col-3">
-							    <label for="validationCustom01" class="form-label">소셜<span class="text-danger fs-0">*</span></label>
+							    <label for="validationCustom01" class="form-label aa">소셜<span class="text-danger fs-0">*</span></label>
 							    <select class="form-select" id="validationCustom01" aria-label="Default select example"  required>
 								  <option selected>선택하세요</option>
 								  <option value="1">One</option>
@@ -553,8 +557,9 @@
        Array.from(forms).forEach(form => {
          form.addEventListener('submit', event => {
            if (!form.checkValidity()) {
-             event.preventDefault()
-             event.stopPropagation()
+		            event.preventDefault()
+		            event.stopPropagation()
+
            }
 
            form.classList.add('was-validated')
@@ -562,7 +567,6 @@
        })
      })()
       </script>
-</script>
 
   </body>
 </html>
